@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.gridContainer {
+    display:flex;
+    flex-wrap: wrap;
+    width:  960px;
+    height: 960px;
+    margin: 15px auto;
+    border:black 2px solid;
+}
+.grid-item {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+}
+.grid-item:hover {
+    background-color: #333;
+}
+ 
